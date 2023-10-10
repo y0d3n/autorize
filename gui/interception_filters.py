@@ -66,6 +66,7 @@ class InterceptionFilters():
         # self.IFModel.addElement("Scope items only: (Content is not required)") # commented for better first impression.
         self._extender.IFModel.addElement("URL Not Contains (regex): (\\.js|\\.css|\\.png|\\.jpg|\\.svg|\\.jpeg|\\.gif|\\.woff|\\.map|\\.bmp|\\.ico)(?![a-z]+)[?]*[\S]*$")
         self._extender.IFModel.addElement("Ignore spider requests: ")
+        self._extender.IFModel.addElement("Scope items only: ")
         
         self._extender.IFText = JTextArea("", 5, 30)
 
